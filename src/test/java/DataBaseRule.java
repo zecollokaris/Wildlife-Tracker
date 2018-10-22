@@ -15,6 +15,18 @@ public class DataBaseRule extends ExternalResource{
         con=sql2o.open();
     }
 
+//  THIS ENSURES ONCE TEST IS ADDED AND TESTS ARE UNDERTAKED THE INPUTED DATA IS DELETED FROM THE DATABASE!!
+
+//  THIS TEST COULD NOT BE UNDERTAKEN IN MAIN DATABASE AS IT WOULD CLEAR INFO!!
+    @Override
+    public void after(){
+        con.createQuery("DELETE FROM animal *;").executeUpdate();
+        con.createQuery("DELETE FROM sighting *;").executeUpdate();
+        con.close();
+    }
+    public Connection getCon(){
+        return this.con;
+    }
 
 
 }
