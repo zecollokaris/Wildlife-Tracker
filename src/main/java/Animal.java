@@ -37,7 +37,18 @@ public class Animal{
     }
 
 
+    public boolean save(){
 
+        db.getCon().createQuery("INSERT INTO animal (id,name,category,health,age,status) VALUES(:id,:name,:category,:health,:age,:status)")
+                .addParameter("id",id)
+                .addParameter("first_name",first_name)
+                .addParameter("second_name",second_name)
+                .addParameter("last_name",last_name)
+                .addParameter("phone_number",phone_number)
+                .addParameter("email",email)
+                .executeUpdate();
+        return  true;
+    }
 
 
 }
