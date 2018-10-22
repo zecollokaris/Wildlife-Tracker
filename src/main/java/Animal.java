@@ -20,6 +20,9 @@ public class Animal{
     public double getId(){
         return this.id;
     }
+    public String getName(){
+        return this.name;
+    }
 
 
 
