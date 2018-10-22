@@ -42,4 +42,23 @@ public class Sighting {
         return this.month;
     }
 
+
+    public boolean save(){
+        try {
+            db.getCon().createQuery("INSERT INTO client(ranger_name,location,doing,animal,date,month) VALUES(:ranger_name,:location,:doing:animal:date:month)")
+                    .addParameter("ranger_name",ranger_name)
+                    .addParameter("location",location)
+                    .addParameter("doing",doing)
+                    .addParameter("animal",animal)
+                    .addParameter("date",date)
+                    .addParameter("month",month)
+                    .executeUpdate();
+            return true;
+        }
+        catch (Exception ex){
+            System.out.println(ex.getMessage());
+            return false;
+        }
+    }
+
 }
