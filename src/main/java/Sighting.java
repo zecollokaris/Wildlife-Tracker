@@ -23,6 +23,9 @@ public class Sighting {
     public double getId(){
         return this.id;
     }
+    public String getRanger_name(){
+        return this.ranger_name;
+    }
 
 
 }
