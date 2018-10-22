@@ -29,6 +29,9 @@ public class Animal{
     public String getHealth(){
         return this.health;
     }
+    public String getAge(){
+        return this.age;
+    }
 
 
 
