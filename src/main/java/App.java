@@ -18,7 +18,7 @@ public class App{
 
 
 //\\!!_  THE APPLICATION ROUTES ARE LOCATED HERE!!  _!!//\\
-        
+
 
 //      Route for viewing Sightings!
     get("/sightings",(request, response) -> {
