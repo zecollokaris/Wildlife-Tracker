@@ -27,11 +27,15 @@ public class DB{
 
 
 //  ANIMAL!!
-
     public List<Animal> allData(){
         return con.createQuery("SELECT id,name,category,health,age,status FROM animal").executeAndFetch(Animal.class);
     }
 
+    public Animal getAnimal(double id){
+        return (Animal) con.createQuery("SELECT id,name,category,health,age,status FROM animal WHERE id=:id;")
+                .addParameter("id",id)
+                .executeAndFetchFirst(Animal.class);
+    }
 
 
 
