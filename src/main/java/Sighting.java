@@ -29,6 +29,9 @@ public class Sighting {
     public String getLocation(){
         return this.location;
     }
+    public String getDoing(){
+        return this.doing;
+    }
 
 
 }
