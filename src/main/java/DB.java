@@ -26,4 +26,24 @@ public class DB{
     }
 
 
+//  ANIMAL!!
+
+
+
+
+
+//  SIGHTING!!
+    public List<Sighting> getSightings(double id) {
+        return  con.createQuery("SELECT id, ranger_name, location,doing,animal,date,month FROM sighting WHERE animal=:id;")
+                .addParameter("id", id)
+                .executeAndFetch(Sighting.class);
+    }
+
+    public List<Sighting> getSighting(double id) {
+        return con.createQuery("SELECT id,ranger_name,location,doing,animal,date,month FROM sighting WHERE animal=:id;")
+                //Cast From Double To String
+                .addParameter("id", Double.toString(id))
+                .executeAndFetch(Sighting.class);
+    }
+
 }
