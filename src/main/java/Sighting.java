@@ -19,7 +19,10 @@ public class Sighting {
         this.date=date;
         this.month=month;
     }
-    
+
+    public double getId(){
+        return this.id;
+    }
 
 
 }
