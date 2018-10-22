@@ -8,7 +8,7 @@ public class Animal{
     private Sighting age;
     private Sighting status;
     private DB db=new DB();
-    public Stylist(double id,String name,String category,String health, String age, String status){
+    public Animal(double id,String name,String category,String health, String age, String status){
 
         this.id=id;
         this.name=name;

@@ -28,6 +28,10 @@ public class DB{
 
 //  ANIMAL!!
 
+    public List<Animal> allData(){
+        return con.createQuery("SELECT id,name,category,health,age,status FROM animal").executeAndFetch(Animal.class);
+    }
+
 
 
 
