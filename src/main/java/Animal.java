@@ -2,12 +2,14 @@ import org.sql2o.Connection;
 public class Animal{
 //  THIS WILL ONLY BE ACCESSED WITHIN THI CLASS!!
     private double id;
-    private Sighting name;
-    private Sighting category;
-    private Sighting health;
-    private Sighting age;
-    private Sighting status;
+    private String name;
+    private String category;
+    private String health;
+    private String age;
+    private String status;
     private DB db=new DB();
+
+
     public Animal(double id,String name,String category,String health, String age, String status){
 
         this.id=id;
