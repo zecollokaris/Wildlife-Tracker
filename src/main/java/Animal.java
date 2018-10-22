@@ -26,6 +26,9 @@ public class Animal{
     public String getCategory(){
         return this.category;
     }
+    public String getHealth(){
+        return this.health;
+    }
 
 
 
