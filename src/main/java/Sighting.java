@@ -26,6 +26,9 @@ public class Sighting {
     public String getRanger_name(){
         return this.ranger_name;
     }
+    public String getLocation(){
+        return this.location;
+    }
 
 
 }
