@@ -32,6 +32,9 @@ public class Sighting {
     public String getDoing(){
         return this.doing;
     }
+    public String getAnimal(){
+        return this.animal;
+    }
 
 
 }
