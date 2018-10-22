@@ -39,6 +39,10 @@ public class WildlifeTest{
         return true;
     }
 
-
+    //    Execution Test Commands
+    @Test
+    public void InsertSighting_True(){
+        assertEquals(true,InsertSighting());
+    }
 
 }
