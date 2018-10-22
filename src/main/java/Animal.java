@@ -32,6 +32,9 @@ public class Animal{
     public String getAge(){
         return this.age;
     }
+    public String getStatus(){
+        return this.status;
+    }
 
 
 
