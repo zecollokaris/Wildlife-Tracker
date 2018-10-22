@@ -10,6 +10,13 @@ public class Animal{
     private DB db=new DB();
     public Stylist(double id,String name,String category,String health, String age, String status){
 
+        this.id=id;
+        this.name=name;
+        this.category=category;
+        this.health=health;
+        this.age=age;
+        this.status=status;
+    }
 
 
 
