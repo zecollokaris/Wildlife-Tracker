@@ -38,6 +38,8 @@ public class Sighting {
     public String getDate(){
         return this.date;
     }
-
+    public String getMonth(){
+        return this.month;
+    }
 
 }
