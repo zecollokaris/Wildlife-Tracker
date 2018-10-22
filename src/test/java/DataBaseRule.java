@@ -28,5 +28,4 @@ public class DataBaseRule extends ExternalResource{
         return this.con;
     }
 
-
 }
