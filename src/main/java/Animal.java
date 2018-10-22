@@ -17,6 +17,11 @@ public class Animal{
         this.age=age;
         this.status=status;
     }
+    public double getId(){
+        return this.id;
+    }
+
+
 
 
 
