@@ -35,6 +35,9 @@ public class Sighting {
     public String getAnimal(){
         return this.animal;
     }
+    public String getDate(){
+        return this.date;
+    }
 
 
 }
