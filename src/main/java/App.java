@@ -30,9 +30,9 @@ public class App{
 
 //      Route for home That fetches & displays Animal List!
     get("/", (request, response) -> {
-        model.put("stylist",null);
+        model.put("animal",null);
         if(db.allData().size()>0){
-            model.put("stylist",db.allData());
+            model.put("animal",db.allData());
         } else {
             model.put("message","There Are No Animals Currently! Please Add...");
         }
@@ -40,6 +40,8 @@ public class App{
         model.put("template", "templates/index.vtl" );
         return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
+
+    
 
 
 
