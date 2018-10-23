@@ -125,13 +125,21 @@
 
 /* NAVBAR COLLAPSE */
 
+
+/* HOME STYLING */
+
 .homeanimal{
 margin-top:10%;
 }
 
 .home-image{
- background-image: url('images/magical2.jpeg');
- height: 600px;
- margin-top:10%;
+ background-image: url('images/home-bg.jpg');
+ background-size:cover;
+ height: 250px;
+ margin-top:3%;
  background-repeat: no-repeat;
+}
+
+.lionhometxt{
+
 }
