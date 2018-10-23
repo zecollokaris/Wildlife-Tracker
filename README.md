@@ -94,3 +94,12 @@ $ psql
 =# CREATE DATABASE wildlife_tracker WITH TEMPLATE wildlife_tracker_test;
 ```
 
+## **SETUP/INSTALLATION!**
+
+**{follow the below instructions for set up.}**
+
+1. You will need Internet connection.
+
+2. You need to get into the Project Repository.
+
+Link:-> ```https://github.com/zecollokaris/Wildlife-Tracker-Spark```
