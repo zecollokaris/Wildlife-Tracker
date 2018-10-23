@@ -60,3 +60,7 @@ The ``` $ ``` and ``` =# ``` are only used to indicate the current location!... 
 
 - Initialize postgresql Database using the below commands.
 
+```
+$ psql
+```
+
