@@ -44,3 +44,11 @@ Gradle is used as the build tool and can be installed with sdkman:
 sdk install gradle
 ```
 
+3. Postgresql
+
+Ensure you have installed postgresql on your localmachine
+
+This will be used as the System Database for Hair Saloon.
+
+Once u Have it installed Follow the below Instructions.
+
