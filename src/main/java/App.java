@@ -28,6 +28,8 @@ public class App{
         return new ModelAndView(model, "templates/layout.vtl");
     }, new VelocityTemplateEngine());
 
+
+
 //      Route for home That fetches & displays Animal List!
     get("/", (request, response) -> {
         model.put("animal",null);
@@ -41,7 +43,24 @@ public class App{
         return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());
 
-    
+
+
+//      Route to Post Animals!
+    post("/newanimal",(request,response)->{
+        String id=request.queryParams("id");
+        System.out.println(id);
+        Animal animal=new Animal(
+                Double.parseDouble(id),
+                request.queryParams("name"),
+                request.queryParams("category"),
+                request.queryParams("health"),
+                request.queryParams("age"),
+                request.queryParams("status")
+        );
+        animal.save();
+        response.redirect("/");
+        return new ModelAndView(model,"templates/layout.vtl");
+    },new VelocityTemplateEngine());
 
 
 
