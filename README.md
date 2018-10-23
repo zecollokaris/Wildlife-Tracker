@@ -116,3 +116,8 @@ Link:-> ```https://github.com/zecollokaris/Wildlife-Tracker-Spark```
 gradle run
 ```
 
+### TECHNOLOGIES USED:
+
+- **[Java](https://java.com/en/download/) - source language.**
+
+- **[Gradle](https://gradle.org/) for dependency management and running tasks.**
