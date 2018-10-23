@@ -1,6 +1,6 @@
   <a href="/" class="btn btn-primary">Home</a>
 
-  <h3>Sighting</h3>
+  <h1>Sighting</h1>
 
   #if($sighting.size()<1)
     <p>Stylist is Free You Can Book In a Client!</p>
@@ -10,7 +10,8 @@
       #foreach($sighting in $sighting)
 
       <div class="sighting">
-            <h3> <span style="font-weight:bold">Sighting :</span> $sighting.getRanger_name()  $sighting.getLocation() $sighting.getDoing()</h3>
+            <h3> <span style="font-weight:bold">Ranger :</span> $sighting.getRanger_name()</h3>
+            <h3> <span style="font-weight:bold">Location :</span>$sighting.getLocation()</h3>
 
             <p><span style="font-weight:bold">Animal id:</span> $sighting.getAnimal()</p>
 
@@ -18,9 +19,6 @@
 
             <p><span style="font-weight:bold">Sighting Month :</span> $sighting.getMonth()</p>
 
-            <a href="/updateSighting/$sighting.getRanger_name()/$sighting.getId()" class="btn btn-primary"> Update Sighting</a>
-
-            <a href="/deleteSighting/$sighting.getId()" class="btn btn-primary"> Delete Sighting</a>
       </div>
       #end
   </div>

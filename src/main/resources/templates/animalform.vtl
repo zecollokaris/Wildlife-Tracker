@@ -24,27 +24,3 @@
           </fieldset>
     </form>
   </div>
-
-  <div class="homeanimal">
-
-  #if($message)
-  <div class="alert alert-default">
-    <p>$message</p>
-  </div>
-  #end
-    #foreach($animal in $animal)
-    <div class="">
-      <h1><span>Animal : </span>$animal.getName()</h1>
-      <h2><span>Category : </span>$animal.getCategory()<h2>
-      <h3><span>Health : </span>$animal.getHealth()</h3>
-
-      <h3><span>Age : </span>  $animal.getAge()</h3>
-
-      <h3><span>Status : </span>  $animal.getStatus()</h3>
-
-      <p><a href="/getDetails/$animal.getId()" class="btn btn-info btn-md">Check Details</a></p>
-    </div>
-    #end
-  </div>
-
-</div>

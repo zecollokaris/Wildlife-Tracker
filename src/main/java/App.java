@@ -44,6 +44,12 @@ public class App{
     }, new VelocityTemplateEngine());
 
 
+    get("/animalform", (request, response) -> {
+
+        model.put("template", "templates/animalform.vtl");
+        return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
+
 
 //      Route to Post Animals!
     post("/newanimal",(request,response)->{

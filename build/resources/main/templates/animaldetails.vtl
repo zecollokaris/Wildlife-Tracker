@@ -1,9 +1,12 @@
 <div class="row">
-    <a href="/" class="btn  btn-info btn">Home</a>
+    <p><a href="/deleteAnimal/$animal.getId()" class="btn btn-danger btn-md"> Delete Animal</a></p>
+
 </div>
 <div class="row">
   <div class="col-sm-12 col-md-6">
-    <p><span style="font-weight:bold">Animal :</span> $animal.getName() $animal.getCategory() $animal.getHealth()</p>
+    <p><span style="font-weight:bold">Animal :</span> $animal.getName()</p>
+    <p><span style="font-weight:bold">Animal :</span> $animal.getCategory()</p>
+    <p><span style="font-weight:bold">Animal :</span> $animal.getHealth()</p>
 
     <p><span style="text-transform:uppercase;font-weight:bold">Id Number : </span> $animal.getId()</p>
 
@@ -11,12 +14,7 @@
 
     <p><span style="text-transform:uppercase;font-weight:bold">Status : </span>  $animal.getStatus()</p>
   </div>
-  <div class="col-sm-12 col-md-6">
-    <h3>Edit Stylist</h3>
-    <p><a href="/deleteAnimal/$animal.getId()" class="btn btn-danger btn-md"> Delete Animal</a></p>
 
-    <p>  <a href="/updateAnimal/$animal.getName()/$animal.getId()" class="btn btn-info btn-md"> Update Animal</a></p>
-  </div>
 </div>
 
 
@@ -57,10 +55,10 @@
 </form>
 </div>
 <div class="col-sm-12 col-md-6">
-  <h3>Clients</h3>
+  <h3>Sightings</h3>
 
   #foreach($sighting in $sightings)
-  <div class="well">
+  <div class="">
     <p> <span style="font-weight:bold">Animal :</span> $sighting.getRanger_name()  $sighting.getLocation() $sighting.getDoing()</p>
 
     <p><span style="font-weight:bold">Month :</span> $sighting.getMonth()</p>
