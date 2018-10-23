@@ -45,7 +45,7 @@ public class Sighting {
 
     public boolean save(){
         try {
-            db.getCon().createQuery("INSERT INTO client(ranger_name,location,doing,animal,date,month) VALUES(:ranger_name,:location,:doing:animal:date:month)")
+            db.getCon().createQuery("INSERT INTO sighting(ranger_name,location,doing,animal,date,month) VALUES(:ranger_name,:location,:doing:animal:date:month)")
                     .addParameter("ranger_name",ranger_name)
                     .addParameter("location",location)
                     .addParameter("doing",doing)
