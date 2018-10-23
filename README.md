@@ -64,3 +64,9 @@ The ``` $ ``` and ``` =# ``` are only used to indicate the current location!... 
 $ psql
 ```
 
+- Create DataBase
+
+```
+=# CREATE DATABASE saloon_manager;
+```
+
