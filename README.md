@@ -67,30 +67,30 @@ $ psql
 - Create DataBase
 
 ```
-=# CREATE DATABASE saloon_manager;
+=# CREATE DATABASE wildlife_tracker;
 ```
 
 - Connect to DataBase
 
 ```
-=# \c saloon_test
+=# \c wildlife_tracker
 ```
 
-- Create Stylist Table
+- Create Animal Table
 
 ```
-=# CREATE TABLE stylist (id INT PRIMARY KEY,first_name VARCHAR,second_name VARCHAR,last_name VARCHAR, phone_number VARCHAR, email VARCHAR);
+=# CREATE TABLE animal (id int PRIMARY KEY,name VARCHAR,category VARCHAR,health VARCHAR, age VARCHAR, status VARCHAR);
 ```
 
 - Create Client Table
 
 ```
-=# CREATE TABLE client (id SERAIL PRIMARY KEY,first_name VARCHAR,second_name VARCHAR,last_name VARCHAR,stylist VARCHAR,phone_number VARCHAR, email VARCHAR);
+=# CREATE TABLE sighting (id serial PRIMARY KEY,ranger_name VARCHAR,location VARCHAR,doing VARCHAR,animal VARCHAR,date VARCHAR,month VARCHAR);
 ```
 
 - CREATE Test DataBase
 
 ```
-=# CREATE DATABASE saloon_manager_test WITH TEMPLATE saloon_manager_test;
+=# CREATE DATABASE wildlife_tracker WITH TEMPLATE wildlife_tracker_test;
 ```
 
