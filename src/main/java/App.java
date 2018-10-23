@@ -64,6 +64,20 @@ public class App{
 
 
 
+//      Route to Get Details
+    get("/getDetails/:id",(request,response)-> {
+//      TRY CATCH STATEMENT!!
+        try{
+            model.put("stylist", db.getAnimal(Double.parseDouble(request.params(":id"))));
+            model.put("clients", db.getSightings(Double.parseDouble(request.params(":id"))));
+            model.put("template", "templates/animaldetails.vtl");
+        }
+        catch(Exception ex){
+            System.out.println(ex.getMessage());
+        }
+        return new ModelAndView(model,"templates/layout.vtl");
+    },new VelocityTemplateEngine());
+
 
 
 
