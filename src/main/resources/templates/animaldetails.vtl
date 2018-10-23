@@ -1,0 +1,70 @@
+<div class="row">
+    <a href="/" class="btn  btn-info btn">Home</a>
+</div>
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <p><span style="font-weight:bold">Animal :</span> $animal.getName() $animal.getCategory() $animal.getHealth()</p>
+
+    <p><span style="text-transform:uppercase;font-weight:bold">Id Number : </span> $animal.getId()</p>
+
+    <p><span style="text-transform:uppercase;font-weight:bold">Age : </span>  $stylist.getAge()</p>
+
+    <p><span style="text-transform:uppercase;font-weight:bold">Status : </span>  $animal.getStatus()</p>
+  </div>
+  <div class="col-sm-12 col-md-6">
+    <h3>Edit Stylist</h3>
+    <p><a href="/deleteAnimal/$animal.getId()" class="btn btn-danger btn-md"> Delete Animal</a></p>
+
+    <p>  <a href="/updateAnimal/$animal.getName()/$animal.getId()" class="btn btn-info btn-md"> Update Animal</a></p>
+  </div>
+</div>
+
+
+<div class="row">
+<div class="col-sm-12 col-md-6">
+<h3>Add Sighting</h3>
+<form action="/addsighting" method="post">
+  <div class="form-group">
+     <input type="text" name="Ranger_name" value="" class="form-control" placeholder="Ranger Name" required>
+  </div>
+  <div class="form-group">
+     <input type="text" name="location" value="" class="form-control" placeholder="Location" required>
+  </div>
+  <div class="form-group">
+     <input type="text" name="doing" value="" class="form-control" placeholder="What Was The Animal Doing" required>
+  </div>
+  <div class="form-group">
+    <input  list="animal" name="animal" class="form-control"/>
+     <datalist id="animal">
+          <option value="$animal.getId()">$animal.getName() $animal.getCategory() $animal.getHealth()</option>
+     </datalist>
+  </div>
+  <div class="form-group">
+     <input type="text" name="date" value="" class="form-control" placeholder="Date" required>
+  </div>
+  <div class="form-group">
+     <input type="text" name="month" value="" class="form-control" placeholder="Month" required>
+  </div>
+  <button type="submit" class="btn btn-success btn-md">Add Sighting</button>
+</form>
+</div>
+<div class="col-sm-12 col-md-6">
+  <h3>Clients</h3>
+
+  #foreach($sighting in $sightings)
+  <div class="well">
+    <p> <span style="font-weight:bold">Animal :</span> $client.getFirst_name()  $client.getSecond_name() $client.getLast_name()</p>
+
+    <p><span style="font-weight:bold">Email :</span> $client.getEmail()</p>
+
+    <p><span style="text-transform:uppercase;font-weight:bold">Id Number : </span> $stylist.getId()</p>
+
+    <p><span style="font-weight:bold">Phone Number :</span> $client.getPhone_number()</p>
+
+    <p><a href="/deleteClient/$client.getId()/$stylist.getId()" class="btn btn-danger btn-md"> Delete Client</a></p>
+  </div>
+  #end
+</div>
+</div>
+
+
