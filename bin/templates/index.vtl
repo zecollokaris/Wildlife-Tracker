@@ -1,0 +1,50 @@
+<div class="animal">
+  <div class="formtainer">
+    <form action="/newanimal" method="post">
+        <fieldset>
+          <input type="number" name="id" value="" class="form-control" placeholder="Id Number"  maxlength="8"  required>
+        </fieldset>
+          <fieldset>
+            <input type="text" name="name" value="" class="form-control" placeholder="Name" required>
+          </fieldset>
+          <fieldset>
+            <input type="text" name="category" value="" class="form-control" placeholder="Category" required>
+          </fieldset>
+          <fieldset>
+            <input type="text" name="health" value="" class="form-control" placeholder="Health" required>
+          </fieldset>
+          <fieldset>
+            <input type="text" name="age" value="" class="form-control" placeholder="Age" required>
+          </fieldset>
+          <fieldset>
+            <input type="text" name="status" value="" class="form-control" placeholder="Status" required>
+          </fieldset>
+          <fieldset>
+            <button style="width: 150px;" name="submit" type="submit" id="submit" data-submit="...Sending">Add Animal!</button>
+          </fieldset>
+    </form>
+  </div>
+
+  <div class="homeanimal">
+
+  #if($message)
+  <div class="alert alert-default">
+    <p>$message</p>
+  </div>
+  #end
+    #foreach($animal in $animal)
+    <div class="">
+      <h1><span>Animal : </span>$animal.getName()</h1>
+      <h2><span>Category : </span>$animal.getCategory()<h2>
+      <h3><span>Health : </span>$animal.getHealth()</h3>
+
+      <h3><span>Age : </span>  $animal.getAge()</h3>
+
+      <h3><span>Status : </span>  $animal.getStatus()</h3>
+
+      <p><a href="/getDetails/$animal.getId()" class="btn btn-info btn-md">Check Details</a></p>
+    </div>
+    #end
+  </div>
+
+</div>

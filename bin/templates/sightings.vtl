@@ -1,0 +1,24 @@
+  <a href="/" class="btn btn-primary">Home</a>
+
+  <h1>Sighting</h1>
+
+  #if($sighting.size()<1)
+    <p>Stylist is Free You Can Book In a Client!</p>
+  #end
+
+  <div class="">
+      #foreach($sighting in $sighting)
+
+      <div class="sighting">
+            <h3> <span style="font-weight:bold">Ranger :</span> $sighting.getRanger_name()</h3>
+            <h3> <span style="font-weight:bold">Location :</span>$sighting.getLocation()</h3>
+
+            <p><span style="font-weight:bold">Animal id:</span> $sighting.getAnimal()</p>
+
+            <p><span style="font-weight:bold">Sighting Date :</span> $sighting.getDate()</p>
+
+            <p><span style="font-weight:bold">Sighting Month :</span> $sighting.getMonth()</p>
+
+      </div>
+      #end
+  </div>
