@@ -103,3 +103,8 @@ $ psql
 2. You need to get into the Project Repository.
 
 Link:-> ```https://github.com/zecollokaris/Wildlife-Tracker-Spark```
+
+3. From there you can access the Wildlife Tracker.
+
+4. **Clone** the project.
+
