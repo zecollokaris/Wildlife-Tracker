@@ -83,7 +83,7 @@ public class App{
 //      Route to Post Sighting!!
         post("/addsighting", (request, response) ->{
             try{
-                Sighting client = new Sighting(
+                Sighting sighting = new Sighting(
                         1,
                         request.queryParams("ranger_name"),
                         request.queryParams("location"),
@@ -92,15 +92,40 @@ public class App{
                         request.queryParams("date"),
                         request.queryParams("month")
                 );
-                client.save();
+                sighting.save();
             }
             catch(Exception ex){
                 System.out.println(ex.getMessage());
             }
-            response.redirect("/getDetails/"+request.queryParams("stylist"));
+            response.redirect("/getDetails/"+request.queryParams("animal"));
             return new ModelAndView(model,"templates/layout.vtl");
         }, new VelocityTemplateEngine());
 
+
+
+
+//      DELETING ROUTES!!
+        get("/deleteSighting/:sighting/:animal",(request,response)->{
+            String SQL="DELETE FROM  sighting WHERE id="+request.params(":sighting");
+            db.executeCommand(SQL);
+            response.redirect("/getDetails/"+request.params(":animal"));
+            return new ModelAndView(model,"templates/layout.vtl");
+        },new VelocityTemplateEngine());
+
+
+        get("/deleteSighting/:sighting",(req,res)->{
+            String SQL="DELETE FROM  sighting WHERE id="+req.params(":sighting");
+            db.executeCommand(SQL);
+            res.redirect("/getSighting");
+            return new ModelAndView(model,"templates/layout.vtl");
+        },new VelocityTemplateEngine());
+
+        get("/deleteAnimal/:animal",(req,res)->{
+            String SQL="DELETE FROM  animal WHERE id="+req.params(":animal");
+            db.executeCommand(SQL);
+            res.redirect("/");
+            return new ModelAndView(model,"templates/layout.vtl");
+        },new VelocityTemplateEngine());
 
 
 

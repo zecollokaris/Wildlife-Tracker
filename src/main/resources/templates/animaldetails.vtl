@@ -27,24 +27,32 @@
   <div class="form-group">
      <input type="text" name="ranger_name" value="" class="form-control" placeholder="Ranger Name" required>
   </div>
+
   <div class="form-group">
      <input type="text" name="location" value="" class="form-control" placeholder="Location" required>
   </div>
+
   <div class="form-group">
      <input type="text" name="doing" value="" class="form-control" placeholder="What Was The Animal Doing" required>
   </div>
+
+
   <div class="form-group">
     <input  list="animal" name="animal" class="form-control"/>
      <datalist id="animal">
           <option value="$animal.getId()">$animal.getName() $animal.getCategory() $animal.getHealth()</option>
      </datalist>
   </div>
+
+
   <div class="form-group">
      <input type="text" name="date" value="" class="form-control" placeholder="Date" required>
   </div>
+
   <div class="form-group">
      <input type="text" name="month" value="" class="form-control" placeholder="Month" required>
   </div>
+
   <button type="submit" class="btn btn-success btn-md">Add Sighting</button>
 </form>
 </div>
