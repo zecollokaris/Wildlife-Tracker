@@ -87,3 +87,10 @@ $ psql
 ```
 =# CREATE TABLE client (id SERAIL PRIMARY KEY,first_name VARCHAR,second_name VARCHAR,last_name VARCHAR,stylist VARCHAR,phone_number VARCHAR, email VARCHAR);
 ```
+
+- CREATE Test DataBase
+
+```
+=# CREATE DATABASE saloon_manager_test WITH TEMPLATE saloon_manager_test;
+```
+
