@@ -81,3 +81,9 @@ $ psql
 ```
 =# CREATE TABLE stylist (id INT PRIMARY KEY,first_name VARCHAR,second_name VARCHAR,last_name VARCHAR, phone_number VARCHAR, email VARCHAR);
 ```
+
+- Create Client Table
+
+```
+=# CREATE TABLE client (id SERAIL PRIMARY KEY,first_name VARCHAR,second_name VARCHAR,last_name VARCHAR,stylist VARCHAR,phone_number VARCHAR, email VARCHAR);
+```
