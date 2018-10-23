@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8ed77f8-210e-412a-9dd3-37fb156f4f36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/public/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/elephantclip.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/magic2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/magical.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/magnify.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/sdish.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/snake.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/wild.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/images/wildelephant.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/animaldetails.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/animaldetails.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/sightings.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/sightings.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animaldetails.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animaldetails.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -64,7 +37,7 @@
           <entry key="class" value="1" />
           <entry key="css" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="gradle" value="1" />
+          <entry key="gradle" value="2" />
           <entry key="java" value="8" />
           <entry key="vtl" value="10" />
         </counts>
@@ -74,7 +47,7 @@
           <entry key="CLASS" value="1" />
           <entry key="CSS" value="2" />
           <entry key="Git file" value="1" />
-          <entry key="Groovy" value="1" />
+          <entry key="Groovy" value="2" />
           <entry key="JAVA" value="8" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
@@ -83,8 +56,8 @@
         <counts>
           <entry key="css" value="291" />
           <entry key="gitignore" value="8" />
-          <entry key="gradle" value="18" />
-          <entry key="java" value="3756" />
+          <entry key="gradle" value="20" />
+          <entry key="java" value="3799" />
           <entry key="vtl" value="1479" />
         </counts>
       </usages-collector>
@@ -92,8 +65,8 @@
         <counts>
           <entry key="CSS" value="291" />
           <entry key="Git file" value="8" />
-          <entry key="Groovy" value="18" />
-          <entry key="JAVA" value="3756" />
+          <entry key="Groovy" value="20" />
+          <entry key="JAVA" value="3799" />
           <entry key="PLAIN_TEXT" value="1479" />
         </counts>
       </usages-collector>
@@ -102,10 +75,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
+            <state relative-caret-position="30">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#288#303#0" expanded="true" />
@@ -132,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/sightings.vtl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -519,26 +501,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/DataBaseRule.java" />
         <option value="$PROJECT_DIR$/src/test/java/WildlifeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/Animal.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sighting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/animalform.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/animaldetails.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="729" />
-    <option name="y" value="102" />
+    <option name="x" value="671" />
+    <option name="y" value="388" />
     <option name="width" value="921" />
     <option name="height" value="685" />
   </component>
@@ -656,9 +638,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="729" y="102" width="921" height="685" extended-state="0" />
+    <frame x="671" y="388" width="921" height="685" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25142208" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25142208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -674,7 +657,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32853025" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32920355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -714,13 +697,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -825,17 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="48" column="47" selection-start-line="48" selection-start-column="47" selection-end-line="48" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#288#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/animalform.vtl">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -868,6 +833,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#288#303#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
