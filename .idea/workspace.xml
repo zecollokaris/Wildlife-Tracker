@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8ed77f8-210e-412a-9dd3-37fb156f4f36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="e8ed77f8-210e-412a-9dd3-37fb156f4f36" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,7 +50,7 @@
           <entry key="gitignore" value="8" />
           <entry key="gradle" value="18" />
           <entry key="java" value="3457" />
-          <entry key="vtl" value="215" />
+          <entry key="vtl" value="239" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -60,7 +58,7 @@
           <entry key="Git file" value="8" />
           <entry key="Groovy" value="18" />
           <entry key="JAVA" value="3457" />
-          <entry key="PLAIN_TEXT" value="215" />
+          <entry key="PLAIN_TEXT" value="239" />
         </counts>
       </usages-collector>
     </session>
@@ -79,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -92,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -560,8 +558,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Sighting.java" />
         <option value="$PROJECT_DIR$/src/main/java/DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/Animal.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
       </list>
     </option>
   </component>
@@ -667,7 +665,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12002567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -836,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -851,6 +841,13 @@
             <element signature="imports" expanded="true" />
             <element signature="e#288#303#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="95" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
         </state>
       </provider>
     </entry>
