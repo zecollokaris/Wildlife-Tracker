@@ -11,10 +11,7 @@ public class App{
     static DB db=new DB();
     static Map<String,Object> model=new HashMap<String,Object>();
     public static void main(String[] args) {
-//      STATIC FILES LOCATION!!
-        staticFileLocation("/public");
-//      MAIN VTL FILE!!
-        String layout = "templates/layout.vtl";
+
 
 
 //\\!!_  HEROKU DEPLOYMENT-PROCESS BUILDER!!  _!!//\\
@@ -29,6 +26,19 @@ public class App{
     setPort(port);
 
 
+
+//      STATIC FILES LOCATION!!
+    staticFileLocation("/public");
+//      MAIN VTL FILE!!
+    String layout = "templates/layout.vtl";
+
+
+
+
+
+
+
+    
 //\\!!_  THE APPLICATION ROUTES ARE LOCATED HERE!!  _!!//\\
 
 
