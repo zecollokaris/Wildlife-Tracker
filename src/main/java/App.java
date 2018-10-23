@@ -28,7 +28,18 @@ public class App{
         return new ModelAndView(model, "templates/layout.vtl");
     }, new VelocityTemplateEngine());
 
+//      Route for home That fetches & displays Animal List!
+    get("/", (request, response) -> {
+        model.put("stylist",null);
+        if(db.allData().size()>0){
+            model.put("stylist",db.allData());
+        } else {
+            model.put("message","There Are No Animals Currently! Please Add...");
+        }
 
+        model.put("template", "templates/index.vtl" );
+        return new ModelAndView(model, layout);
+    }, new VelocityTemplateEngine());
 
 
 
