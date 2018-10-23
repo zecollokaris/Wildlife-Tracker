@@ -53,13 +53,13 @@
 
   #foreach($sighting in $sightings)
   <div class="well">
-    <p> <span style="font-weight:bold">Animal :</span> $client.getFirst_name()  $client.getSecond_name() $client.getLast_name()</p>
+    <p> <span style="font-weight:bold">Animal :</span> $sighting.getRanger_name()  $sighting.getLocation() $sighting.getDoing()</p>
 
-    <p><span style="font-weight:bold">Email :</span> $client.getEmail()</p>
+    <p><span style="font-weight:bold">Month :</span> $sighting.getMonth()</p>
 
-    <p><span style="text-transform:uppercase;font-weight:bold">Id Number : </span> $stylist.getId()</p>
+    <p><span style="text-transform:uppercase;font-weight:bold">Id Number : </span> $animal.getId()</p>
 
-    <p><span style="font-weight:bold">Phone Number :</span> $client.getPhone_number()</p>
+    <p><span style="font-weight:bold">Date :</span> $sighting.getDate()</p>
 
     <p><a href="/deleteClient/$client.getId()/$stylist.getId()" class="btn btn-danger btn-md"> Delete Client</a></p>
   </div>
