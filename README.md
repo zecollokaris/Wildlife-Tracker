@@ -76,3 +76,8 @@ $ psql
 =# \c saloon_test
 ```
 
+- Create Stylist Table
+
+```
+=# CREATE TABLE stylist (id INT PRIMARY KEY,first_name VARCHAR,second_name VARCHAR,last_name VARCHAR, phone_number VARCHAR, email VARCHAR);
+```
