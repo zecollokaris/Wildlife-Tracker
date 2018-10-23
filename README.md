@@ -20,3 +20,5 @@ This application allows Rangers to track wildlife sightings in the area, record 
 
 - Ranger can delete both Animal and Sightings Recorded.
 
+- Application can Keep track of Engdangered animals, health, date of sighting, location age, identity number and number of animals. 
+
