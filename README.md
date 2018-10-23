@@ -70,3 +70,9 @@ $ psql
 =# CREATE DATABASE saloon_manager;
 ```
 
+- Connect to DataBase
+
+```
+=# \c saloon_test
+```
+
