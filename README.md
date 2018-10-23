@@ -13,3 +13,10 @@ This application allows Rangers to track wildlife sightings in the area, record 
 [Check-Out App!](https://wl-tracker.herokuapp.com/)
 
 ## User Story
+
+- Ranger can add a Animal.
+
+- Ranger add a Sighting of a Single Animal
+
+- Ranger can delete both Animal and Sightings Recorded.
+
