@@ -8,7 +8,7 @@ import java.util.List;
 public class DB{
     private Connection con;
     public DB(){
-        con=new Sql2o("jdbc:postgresql://localhost:5432/wildlife_tracker","karis","Kar!s123").open();
+        con=new Sql2o("jdbc:postgresql://ec2-23-23-80-20.compute-1.amazonaws.com:5432/d6b9dvft2na4n7","lajpujfanekstm","39d38863421fde8cf14a09cf810b5561f009293c78c41deb66d0438a4e9363b8").open();
     }
 
     public Connection getCon(){
