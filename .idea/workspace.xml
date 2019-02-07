@@ -630,6 +630,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="client&#9;PSI&#9;JAVA://com.sun.security.ntlm.Client" />
     <property name="add_unversioned_files" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
